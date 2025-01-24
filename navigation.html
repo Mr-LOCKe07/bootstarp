@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+</head>
+<body>
+
+<!--start of nav bar-->
+
+<nav class="navbar navbar-expand-lg bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="static/images/White%20Martini%20Cocktail%20Bar%20Logo.jpg" alt="" width="50" height="50"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Fullstack Software Development</a></li>
+            <li><a class="dropdown-item" href="#">Data Science</a></li>
+<!--            <li><hr class="dropdown-divider"></li>-->
+            <li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+            <li><a class="dropdown-item" href="#">Cyber Security</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Programming Languages</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--end of nav bar-->
+
+<!--start of carousel-->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="static/images/IMG_1651.JPG" class="d-block w-100" alt="..." height="1000">
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/Makima.jpg" class="d-block w-100" alt="..." height="1000">
+    </div>
+    <div class="carousel-item">
+      <img src="static/images/ba6b15fd-8d54-4842-af07-8e616053471c.jpg" class="d-block w-100" alt="..." height="1000">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--end of carousel-->
+
+<!--start of cards-->
+
+<div class="container-fluid p-3 bg-light">
+  <div class="row  row-cols-1 row-cols-md-3 g-4">
+    <div class="col bg-danger rounded-3 ">
+      <div class="card h-100 " style="width: 18rem;">
+  <img src="static/images/_).jpg" class="card-img-top" alt="...">
+  <div class="card-body p-2">
+    <h5 class="card-title">Kakegurui</h5>
+    <p class="card-text">Yumeko Jabami enrolls at Hyakkaou Private Academy, where students are ranked by their gambling winnings, and fame and fortune await those who rise to the top.</p>
+    <a href="#" class="btn btn-primary">More</a>
+  </div>
+</div>
+    </div>
+    <div class="col bg-warning rounded-3">
+      <div class="card h-100" style="width: 18rem;">
+  <img src="static/images/Mob%20psycho%20100.jpg" class="card-img-top" alt="...">
+  <div class="card-body p-2">
+    <h5 class="card-title">Mob Psycho 100</h5>
+    <p class="card-text">The story follows Shigeo Kageyama, nicknamed Mob, a boy who has strong psychic powers, and his struggles to find the simple happiness he is looking for.</p>
+    <a href="#" class="btn btn-primary">More</a>
+  </div>
+</div>
+    </div>
+    <div class="col bg-success rounded-3">
+      <div class="card h-100" style="width: 18rem;">
+  <img src="static/images/Denji%20Chainsaw%20Devil%20-%20Chainsaw%20Man.jpg" class="card-img-top" alt="...">
+  <div class="card-body p-2">
+    <h5 class="card-title">Chainsaw Man</h5>
+    <p class="card-text">Betrayed and killed, a teenager named Denji gets revived as Chainsaw Man, a soul with a devil's heart.</p>
+    <a href="#" class="btn btn-primary">More</a>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<!--end of cards-->
+
+<script src="static/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
